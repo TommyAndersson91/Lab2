@@ -16,8 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _theWordLabel.text = [NSString stringWithFormat: @"You pressed: "  "%@", _passedWord];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
+
 
 
 @end
